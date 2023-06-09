@@ -1,4 +1,40 @@
-body {
-    background: blue;
-}
 
+
+
+.container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template-areas: "navbar navbar"
+    "heroImage about"
+    "projects projects"
+    "connect contact"
+    "footer-1 footer-1";
+    grid-template-columns: 712px 1fr;
+    grid-template-rows: 160px 1fr 1fr 1fr 80px;
+  }
+  .container > div {
+    border: 1px dashed #888;
+  }
+  
+  .navbar {
+    grid-area: navbar;
+  }
+  .heroImage {
+    grid-area: heroImage;
+  }
+  .about {
+    grid-area: about;
+  }
+  .projects {
+    grid-area: projects;
+  }
+  .connect {
+    grid-area: connect;
+  }
+  .contact {
+    grid-area: contact;
+  }
+  .footer-1 {
+    grid-area: footer-1;
+  }
