@@ -47,11 +47,18 @@
   }
   .heroImage {
     grid-area: heroImage;
-    float: none;
-    left: 50%;
+    background-image: url(../assets/kingsley-osei-abrah-m7T-pHWxnkg-unsplash-min.jpg);
+    background-size: cover;
+    background-position: right;
+  }
+
+  img {
+    max-height:100%;
+    width: 75%;
   }
   .about {
     grid-area: about;
+    padding: 15px;
   }
   .projects {
     grid-area: projects;
