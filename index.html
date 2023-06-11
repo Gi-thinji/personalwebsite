@@ -7,15 +7,96 @@
 
     <body>
         <div class="container">
-            <div class="navbar">navbar</div>
-            <div class="heroImage">heroImage</div>
-            <div class="about">about</div>
-            <div class="projects">projects</div>
-            <div class="connect">connect</div>
-            <div class="contact">contact</div>
-            <div class="footer-1">footer-1</div>
+            <div class="navbar">
+                <nav>
+                    <a href="#about">About</a>
+                    <a href="news">Projects</a>
+                    <a href="connect">Connect</a>
+                    <a href="contact">Contact</a>
+                </nav>
+            </div>
+
+            <div class="heroImage">
+                <div id="picture" class="img-main">
+                    <figure>
+                        <!--<img src="./assets/kingsley-osei-abrah-m7T-pHWxnkg-unsplash-min.jpg"/>-->
+                    </figure>
+                    <button>Hire Me!</button>
+                </div>
+            </div>
+
+            <div class="about">
+                <article>
+                    <h1>I am Githinji</h1>
+                    <h2>I am a Software Developer</h2>
+                    <p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis orci at purus sollicitudin faucibus. Donec malesuada, lorem ut tempus viverra, eros nulla sodales felis, quis cursus diam risus non sem. Praesent nisl nibh, egestas at velit non, bibendum laoreet elit. Etiam lobortis ipsum in magna efficitur, sit amet dictum nibh facilisis. Vivamus at ante libero. Integer vitae ex tempus, rutrum tellus quis, ornare leo. Suspendisse eu justo consectetur, condimentum urna sed, eleifend sapien. Cras congue lacus tellus, at pretium ipsum tristique sed. Nulla nec dolor nec nibh condimentum convallis eget et mi. Donec a sem dignissim, aliquet orci sit amet, ullamcorper mi. Etiam faucibus, erat eget pulvinar venenatis, nisi mi ultrices ipsum, malesuada tincidunt risus est quis tortor. In feugiat pulvinar lorem. Sed sit amet luctus purus. Ut eros ante, placerat sit amet molestie vel, aliquam sit amet mi. Nulla ac malesuada nunc.<br>
+
+                    Fusce a elit vitae elit tempus blandit. Quisque nec faucibus nisl. Nulla facilisi. Vivamus erat sem, placerat in varius ac, lobortis at libero. In sit amet hendrerit nisl. Proin felis lacus, egestas id lacus quis, rhoncus ullamcorper arcu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris massa mauris, pharetra cursus laoreet nec, tincidunt vitae lacus. Vestibulum id aliquam leo, at porttitor erat.</p>
+                    
+                </article>
+            </div>
+
+            <div class="projects">
+                <section>
+                    <section>
+                        <h2>Projects</h2>
+                        <h3>Project 1: Personal Website</h3>
+                        
+                        <article>
+                            <h4>Objective</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis orci at purus sollicitudin faucibus. Donec malesuada, lorem ut tempus viverra, eros nulla sodales felis, quis cursus diam risus non sem. Praesent nisl nibh, egestas at velit non, bibendum laoreet elit. Etiam lobortis ipsum in magna efficitur, sit amet dictum nibh facilisis. Vivamus at ante libero. Integer vitae ex tempus, rutrum tellus quis, ornare leo. Suspendisse eu justo consectetur, condimentum urna sed, eleifend sapien. Cras congue lacus tellus, at pretium ipsum tristique sed. Nulla nec dolor nec nibh condimentum convallis eget et mi. Donec a sem dignissim, aliquet orci sit amet, ullamcorper mi. Etiam faucibus, erat eget pulvinar venenatis, nisi mi ultrices ipsum, malesuada tincidunt risus est quis tortor. In feugiat pulvinar lorem. Sed sit amet luctus purus. Ut eros ante, placerat sit amet molestie vel, aliquam sit amet mi. Nulla ac malesuada nunc.<br>
+                            </p>
+
+                            <h4>Results</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis orci at purus sollicitudin faucibus. Donec malesuada, lorem ut tempus viverra, eros nulla sodales felis, quis cursus diam risus non sem. Praesent nisl nibh, egestas at velit non, bibendum laoreet elit. Etiam lobortis ipsum in magna efficitur, sit amet dictum nibh facilisis. Vivamus at ante libero. Integer vitae ex tempus, rutrum tellus quis, ornare leo. Suspendisse eu justo consectetur, condimentum urna sed, eleifend sapien. Cras congue lacus tellus, at pretium ipsum tristique sed. Nulla nec dolor nec nibh condimentum convallis eget et mi. Donec a sem dignissim, aliquet orci sit amet, ullamcorper mi. Etiam faucibus, erat eget pulvinar venenatis, nisi mi ultrices ipsum, malesuada tincidunt risus est quis tortor. In feugiat pulvinar lorem. Sed sit amet luctus purus. Ut eros ante, placerat sit amet molestie vel, aliquam sit amet mi. Nulla ac malesuada nunc.<br>
+                            </p>
+
+                        </article>
+                        
+                    </section>
+                </section>
+            </div>
+
+            <div class="connect">
+                <section>
+                    <h2>Connect</h2>
+                    <a href="#about">LinkedIn</a>
+                    <a href="news">Facebook</a>
+                    <a href="connect">Github</a>
+                    <a href="contact">Twitter</a>
+                    <a href="blog">Blog</a>
+                    <a href="newsletter">Newsletter</a>
+                </nav>
+                </section>
+            </div>
+
+            <div class="contact">
+                <section>
+                    <h2>Contact Me</h2>
+                    <form>
+                        <label for="clientname">Your Name</label><br>
+                        <input type="text" id="clientname" name="clientname"><br>
+                        <label for="org-name">Name of Company/Organisation</label><br>
+                        <input type="text" id="org-name" name="org-name"><br>
+                        <label for="project-scope">Scope of the project</label><br>
+                        <label for="front-end">Front-end</label><br>
+                        <input type="radio" id="front-end" name="front-end"><br>
+                        <label for="back-end">Back-end</label><br>
+                        <input type="radio" id="back-end" name="back-end"><br>
+                        <label for="both">Both</label><br>
+                        <input type="radio" id="both" name="both"><br>
+                        <input type="submit" value="Submit">
+                     
+
+                    </form>
+                </section>
+            </div>
+
+            <div class="footer-1">
+                <footer>footer-1</footer>
+            </div>
+
           </div>
-        <h1>Hello World</h1>
         <script src="./js/script.js"></script>
     </body>
 </html>
