@@ -14,7 +14,7 @@
     grid-template-rows: 50px 1fr 1fr 1fr 80px;
   }
   .container > div {
-    border: 1px dashed #888;
+    /*border: 1px dashed #888;*/
   }
   
   .navbar {
@@ -67,11 +67,11 @@
     font-size:30px;
     padding: 1px 10px;
     border-radius: 6px;
-    position: absolute;
+    /*position: absolute;
     top: 500px;
     right: 140px ;
     width: 200px;
-    height: 100px;
+    height: 100px;*/
   }
 
   button:hover {
